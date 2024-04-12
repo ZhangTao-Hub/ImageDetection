@@ -9,6 +9,7 @@
 
 class Worker2 : public QRunnable
 {
+    Q_OBJECT
 public:
     Worker2(QImage img);
     void run() override;
